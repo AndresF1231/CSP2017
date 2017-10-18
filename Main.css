@@ -1,7 +1,58 @@
+body {
+  background-color: rgb(208, 208, 219);
+  /**background: linear-gradient(white, rgba(199, 163, 255, .3));**/
+  background-size: auto;
+}
 #Maintitle {
   font-family: 'Exo', sans-serif;
-  background-color: rgba(242, 109, 237, 0.25);
-  border: 3px solid blue;
+  font-size: 30px;
+  background-color: rgba(232, 143, 211, .75);
+  border: 3px solid rgb(107, 144, 229);
   border-radius: 20px;
   text-align: center;
+  height: 150px;
+  margin-bottom: 10px;
+}
+.Buttons {
+  text-align: center;
+}
+#Home {
+  text-decoration: none;
+  font-size: 25px;
+}
+#About_Me {
+  text-decoration: none;
+  color: black;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 25px;
+  border: 2px solid black;
+  border-radius: 30px;
+}
+#Basic_Html {
+  text-decoration: none;
+  color: black;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 25px;
+  border: 2px solid black;
+  border-radius: 30px;
+}
+#Basic_Css {
+  text-decoration: none;
+  color: black;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 25px;
+  border: 2px solid black;
+  border-radius: 30px;
+}
+#Projects {
+  text-decoration: none;
+  color: black;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 25px;
+  border: 2px solid black;
+  border-radius: 30px;
 }
