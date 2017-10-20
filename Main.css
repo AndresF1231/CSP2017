@@ -1,24 +1,27 @@
 body {
   background-color: rgb(208, 208, 219);
-  /**background: linear-gradient(white, rgba(199, 163, 255, .3));**/
-  background-size: auto;
+  background: grey; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(bottom,rgba(255,0,0,0),rgba(127, 128, 130,1)); /*Safari 5.1-6*/
+  background: -o-linear-gradient(bottom,rgba(255,0,0,0),rgba(127, 128, 130,1)); /*Opera 11.1-12*/
+  background: -moz-linear-gradient(bottom,rgba(255,0,0,0),rgba(127, 128, 130,1)); /*Fx 3.6-15*/
+  background: linear-gradient(to bottom, rgba(255,0,0,0), rgba(127, 128, 130,1)); /*Standard*/
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 #Maintitle {
   font-family: 'Exo', sans-serif;
   font-size: 30px;
-  background-color: rgba(232, 143, 211, .75);
-  border: 3px solid rgb(107, 144, 229);
+  background-color: white;
+  border: 3px solid black;
   border-radius: 20px;
   text-align: center;
   height: 150px;
-  margin-bottom: 10px;
+  margin: 10px;
 }
 .Buttons {
   text-align: center;
-}
-#Home {
-  text-decoration: none;
-  font-size: 25px;
 }
 #About_Me {
   text-decoration: none;
