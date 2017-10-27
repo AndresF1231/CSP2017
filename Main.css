@@ -75,5 +75,5 @@ li (
   color:black;
 )
 #me {
-  align: center;
+  align-self: center;
 }
